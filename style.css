@@ -1,0 +1,109 @@
+@import "compass/css3";
+
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card {
+  height: 400px;
+  width: 400px;
+  background-color: #ba80fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 200px;
+}
+.box-small {
+  flex-grow: 1;
+  background-color: #f2aca4;
+  height: 200px;
+}
+
+.box-medium {
+  flex-grow: 2;
+  background-color: purple;
+  height: 200px;
+}
+
+.box-mini {
+  flex-grow:1;
+  background-color: #89f4f4;
+  height: 100px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: pink;
+  padding: 5px;
+  width: 250px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: #e352e5;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.box-orange {
+  flex-grow: 4;
+  background-color: #efbe7a;
+  height: 300px;
+}
+
+.box-big {
+  flex-grow: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.flex-container-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin-top: 10px;*/
+  height: 600px;
+}
+
+.card2 {
+  height: 400px;
+  width: 400px;
+  background-color: #efbe7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width :768px) {
+  .header {
+    margin-left: 10px;
+  }
+}
